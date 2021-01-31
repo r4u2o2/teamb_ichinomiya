@@ -1,0 +1,291 @@
+/* common
+_______________________________ */
+*, *::before, *::after{ box-sizing: border-box; }
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 24px;
+    line-height: 1.45;
+    color: #707070;
+    background-color: white;
+}
+.line{
+    width: 1172px;
+    height: 3px;
+    background-color: #EDC15E;
+}
+.square{
+    width: 28px;
+    height: 28px;
+    background-color: #EDC15E;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 55px;
+    color: #393939;
+}
+
+/* header
+_______________________________ */
+header{
+    width: 100vw;
+    height: 100vh;
+    background: url(../images/柄.png) no-repeat center center;
+    background-color: #EDC15E;
+    background-size: cover;
+    position: relative;
+}
+header p{
+    width: 773px;
+    height: 106px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    color: #393939;
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+header figure{
+    width: 464px;
+    height: 464px;
+    position: absolute;
+    top: 67%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 44px auto;
+}
+header figure img{
+    width: 100%;
+}
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 45px;
+    color: #393939;
+    letter-spacing: 3.15px;
+}
+li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #393939;
+}
+
+/* main profile
+_______________________________ */
+main{
+    width: 100%;
+    height: 2531px;
+    position: relative;
+}
+.profile-main-area{
+    width: 1200px;
+    height: 517px;
+    position: absolute;
+    top: 276px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 72px auto;
+    position: relative;
+}
+.style-top{
+    display: flex;
+    align-items: center;
+}
+.style-bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+.profile-block{
+    width: 1200px;
+    height: 390px;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    position: absolute;
+    top: 63px;
+    right: 0;
+}
+.profile-block h2{
+    position: absolute;
+    top: 177px;
+    left: 86px;
+}
+.line-black{
+    width: 2px;
+    height: 390px;
+    background-color: #393939;
+    position: absolute;
+    top: 0;
+    left: 388px;
+}
+.profile-text01{
+    position: absolute;
+    top: 53px;
+    left: 435px;
+}
+span{
+    font-size: 26px;
+    color: #393939;
+}
+
+/* main skill
+_______________________________ */
+
+.skill-main-area{
+    width: 100%;
+    height: 688px;
+    background-color: #EDC15E;
+    position: absolute;
+    top: 865px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+.skill-block{
+    width: 1200px;
+    height: 425px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.skill-box{
+    width: 1200px;
+    height: 193px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 176px;
+    left: 0;
+}
+.skill-contents figure{
+    width: 195px;
+    height: 193px;
+    position: relative;
+}
+.skill-contents img{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.skill-contents p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #393939;
+    text-align: center;
+}
+
+/* main love
+_______________________________ */
+.love-main-area{
+    width: 1200px;
+    height: 785px;
+    position: absolute;
+    top: 1655px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 0 auto;
+}
+.love-main-area .style-top .line{
+    width: 1024px;
+}
+.love-main-area h2{
+    margin: 0 0 0 19px;
+}
+.love-block{
+    display: flex;
+    justify-content: space-between;
+}
+.love-main-area figure{
+    width: 388px;
+    height: 614px;
+}
+.love-main-area img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+.love-main-area img:hover{
+    filter: grayscale(0);
+}
+
+.love-main-area p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #393939;
+    text-align: center;
+    margin: 17px 0 0 0;
+}
+
+/* main footer
+_______________________________ */
+footer{
+    width: 100%;
+    height: 667px;
+    display: flex;
+}
+.contact-area{
+    width: 50%;
+    height: 667px;
+    position: relative;
+}
+.contact-box{
+    width: 432px;
+    height: 377px;
+    margin: 120px 168px 0 auto;
+}
+.line-black02{
+    width: 2px;
+    height: 109px;
+    background-color: #393939;
+    margin: 17px 0 17px 135px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a p{
+    width: 268px;
+    height: 72px;
+    background-color: #EDC15E;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #393939;
+    padding: 23px 106px 23px 106px;
+}
+
+
+.footer-area{
+    width: 50%;
+    height: 667px;
+    background-color: #EDC15E;
+}
+.footer-area h1{
+    padding: 155px 0 0 190px;
+}
+.footer-area p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #393939;
+    padding: 226px 0 0 190px;
+}
