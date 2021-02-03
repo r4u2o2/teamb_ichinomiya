@@ -221,22 +221,22 @@ _______________________________ */
     left: 0;
     right: 0;
     bottom: 0; */
-    position: relative;
+    /* position: relative; */
     /* padding: 0 18.75% 0 18.75%; */
     /* margin: 0 auto 0 auto; */
 }
 .love-block{
     width: 62.5%;
     margin: 0 auto 0 auto;
+    position: relative;
 }
 .love-main-area .style-top{
     margin: 0 0 35px 0;
 }
 .love-main-area .style-bottom{
+    width: 100%;
     position: absolute;
-    right: 0;
     bottom: 0;
-    left: 0;
     display: flex;
     align-items: center;
 }
@@ -274,52 +274,67 @@ _______________________________ */
     margin: 0 0 35px 0;
 }
 
-/* main footer
+/* footer
 _______________________________ */
 footer{
     width: 100%;
-    height: 667px;
+    /* height: 667px; */
     display: flex;
+    /* padding: 0 0 0 18.75%; */
 }
+
+/* footer left_______________ */
 .contact-area{
     width: 50%;
-    height: 667px;
-    position: relative;
+    /* height: 667px; */
+    padding: 120px 0 0 18.75%;
+    /* position: relative; */
 }
 .contact-box{
-    width: 432px;
-    height: 377px;
-    margin: 120px 168px 0 auto;
+    /* width: 100%; */
+    /* height: 377px; */
+    padding: 0 17.5% 0 0;
+}
+.contact-box .contact-text{
+    font-size: 2.3vw;
+    margin: 20px 0 0 0;
 }
 .line-black02{
     width: 2px;
     height: 109px;
     background-color: #393939;
-    margin: 17px 0 17px 135px;
+    margin: 17px 0 17px 31.25%;
 }
 footer a{
     text-decoration: none;
+    /* width: 20.666%; */
+    /* height: 72px; */
+    /* margin: 0 0 170px 0; */
 }
-footer a p{
-    width: 268px;
-    height: 72px;
+footer a .mail{
+    width: 62.037%;
+    height: 19.098%;
     background-color: #EDC15E;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.83vw;
     color: #393939;
-    padding: 23px 106px 23px 106px;
+    text-align: center;
+    padding: 6.1% 0 6.1% 0;
+    margin: 0 0 170px 0;
 }
+
+/* footer right_______________ */
 
 
 .footer-area{
     width: 50%;
-    height: 667px;
+    /* height: 667px; */
     background-color: #EDC15E;
     position: relative;
 }
 .footer-area .logo{
-    width: 116px;
+    width: 12.083%;
     position: absolute;
     top: 21.589%;
     left: 23.75%;
@@ -330,7 +345,6 @@ footer a p{
 .footer-area p{
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    font-size: 25px;
     color: #393939;
     position: absolute;
     top: 65.967%;
@@ -353,5 +367,14 @@ footer a p{
     }
     p{
         font-size: 30px;
+    }
+    .profile-text01{
+        font-size: 24px;
+    }
+    footer a p{
+        font-size: 22px;
+    }
+    .contact-box .contact-text{
+        font-size: 28px;
     }
 }
