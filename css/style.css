@@ -119,8 +119,6 @@ header p{
     animation-fill-mode: forwards;
 }
 header .face{
-    /* width: 24.166%;
-    height: 43.042%; */
     width: 464px;
     height: 464px;
     position: absolute;
@@ -139,10 +137,7 @@ header figure img{
 /* main profile
 _______________________________ */
 main{
-    /* width: 100%;
-    height: 2531px; */
     padding: 276px 0 91px 0;
-    /* position: relative; */
 }
 .profile-main-area{
     width: 62.5%;
@@ -156,34 +151,18 @@ main{
     padding: 63px 0 63px 7.166%;
     margin: 36px 0 36px 0;
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
-    /* position: absolute;
-    top: 63px;
-    left: 0;
-    padding: 0 0 0 7.166%; */
-    /* margin: 63px 0 0 0; */
 }
 .profile-block h2{
     margin: 0 7.166% 0 0;
-    /* position: absolute;
-    top: 45.384%;
-    left: 0; */
-    /* left: 7.166%; */
 }
 .line-black{
     width: 2px;
     height: 390px;
     background-color: #393939;
-    /* position: absolute;
-    top: 0;
-    left: 32.333%; */
 }
 .profile-text01{
     margin: 0 0 0 3.916%;
-    /* position: absolute;
-    top: 53px;
-    left: 435px; */
 }
 span{
     font-size: 2.16vw;
@@ -195,26 +174,12 @@ _______________________________ */
 
 .skill-main-area{
     width: 100%;
-    /* height: 27.182%; */
     background-color: #EDC15E;
-    /* position: absolute;
-    top: 865px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: 0 auto 0 auto; */
     padding: 115px 0 115px 0;
     margin: 0 0 102px 0;
 }
 .skill-block{
     width: 62.5%;
-    /* height: 61.773%; */
-    /* position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0; */
-    /* position: relative; */
     margin: 0 auto 0 auto;
 }
 .skill-box{
@@ -223,9 +188,6 @@ _______________________________ */
     display: flex;
     justify-content: space-between;
     margin: 17.877% 0 0 0;
-    /* position: absolute;
-    top: 176px;
-    left: 0; */
 }
 .skill-contents{
     width: 16.25%;
@@ -261,15 +223,6 @@ _______________________________ */
 _______________________________ */
 .love-main-area{
     width: 100%;
-    /* height: 785px; */
-    /* position: absolute;
-    top: 1655px;
-    left: 0;
-    right: 0;
-    bottom: 0; */
-    /* position: relative; */
-    /* padding: 0 18.75% 0 18.75%; */
-    /* margin: 0 auto 0 auto; */
 }
 .love-block{
     width: 62.5%;
@@ -323,21 +276,15 @@ _______________________________ */
 _______________________________ */
 footer{
     width: 100%;
-    /* height: 667px; */
     display: flex;
-    /* padding: 0 0 0 18.75%; */
 }
 
 /* footer left_______________ */
 .contact-area{
     width: 50%;
-    /* height: 667px; */
     padding: 120px 0 0 18.75%;
-    /* position: relative; */
 }
 .contact-box{
-    /* width: 100%; */
-    /* height: 377px; */
     padding: 0 17.5% 0 0;
 }
 .contact-box .contact-text{
@@ -354,9 +301,6 @@ footer{
 
 footer a{
     text-decoration: none;
-    /* width: 20.666%; */
-    /* height: 72px; */
-    /* margin: 0 0 170px 0; */
 }
 footer a .mail{
     width: 62.037%;
@@ -384,7 +328,6 @@ footer a .mail:hover{
 
 .footer-area{
     width: 50%;
-    /* height: 667px; */
     background-color: #EDC15E;
     position: relative;
 }
