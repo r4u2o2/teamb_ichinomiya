@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* common
 _______________________________ */
 *, *::before, *::after{ box-sizing: border-box; }
@@ -45,6 +47,18 @@ li{
     color: #393939;
 }
 
+
+/* animation
+_______________________________ */
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 /* header
 _______________________________ */
 header{
@@ -54,12 +68,28 @@ header{
     background-color: #EDC15E;
     background-size: cover;
     position: relative;
+    /* アニメーション */
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 header .logo{
     width: 6%;
     position: absolute;
     top: 5.565%;
     left: 3.125%;
+    /* トランジション */
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+}
+header .logo:hover{
+    width: 7%;
 }
 header .logo img{
     width: 100%;
@@ -79,6 +109,14 @@ header p{
     right: 0;
     bottom: 0;
     margin: auto;
+    /* アニメーション */
+    opacity: 0;
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 header .face{
     /* width: 24.166%;
@@ -191,6 +229,14 @@ _______________________________ */
 }
 .skill-contents{
     width: 16.25%;
+    /* トランジション */
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+}
+.skill-contents:hover{
+    width: 20%;
 }
 .skill-contents figure{
     width: 100%;
@@ -252,7 +298,6 @@ _______________________________ */
 }
 .love-main-area figure{
     width: 100%;
-    /* height: 614px; */
 }
 .love-main-area img{
     width: 100%;
@@ -300,11 +345,13 @@ footer{
     margin: 20px 0 0 0;
 }
 .line-black02{
-    width: 2px;
+    width: 1px;
     height: 109px;
     background-color: #393939;
+    overflow: hidden;
     margin: 17px 0 17px 31.25%;
 }
+
 footer a{
     text-decoration: none;
     /* width: 20.666%; */
@@ -322,6 +369,14 @@ footer a .mail{
     text-align: center;
     padding: 6.1% 0 6.1% 0;
     margin: 0 0 170px 0;
+    /* トランジション */
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+}
+footer a .mail:hover{
+    width: 70%;
 }
 
 /* footer right_______________ */
@@ -338,6 +393,14 @@ footer a .mail{
     position: absolute;
     top: 21.589%;
     left: 23.75%;
+    /* トランジション */
+    transition-property: width;
+    transition-duration: 0.3s;
+    transition-delay: 0;
+    transition-timing-function: ease-in-out;
+}
+.footer-area .logo:hover{
+    width: 14%;
 }
 .footer-area .logo img{
     width: 100%;
