@@ -366,7 +366,15 @@ footer a .mail:hover{
     left: 23.75%;
 }
 
+@media(max-width: 750px){
+    header .face{
+        width: 232px;
+        height: 232px;
+        position: absolute;
+        top: 85%;
+}
 
+}
 @media(min-width:1200px){
     body{
         font-size: 24px;
